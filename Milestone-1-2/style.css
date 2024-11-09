@@ -1,0 +1,73 @@
+body{
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 150px;
+}
+.resume-container{
+    display:flex;
+    background-color: aliceblue;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(14,14,41);
+}
+.left-section{
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid black;
+    
+}
+.hijabi-girl{
+    width:150px;
+    height: 150px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 5px solid grey;
+    margin-bottom: 20px;
+}
+h1{
+    font-size:24px ;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+h3{
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 15px grey;
+}
+ul  {
+    margin: 10px 0;
+    padding: 10;
+    list-style-type: square;
+}
+ul li{
+    margin: 5px 0;
+}
+.right-section{
+    padding: 20px;
+    width: 65%;
+    box-shadow:black;
+    border-left: 5px solid grey ;
+    
+
+}
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(14,14,41);
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+}
+button:hover{
+    background-color:blue;
+}
+
+
+
